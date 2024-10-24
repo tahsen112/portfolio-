@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tahsen Portfolio</title>
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&display=swap" rel="stylesheet">
+
+     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+           integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+           crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- css link -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="hide-con">
+          <header>
+               <div class="intro">
+                    <h1>Welcome to My portfolio</h1>
+                    <h3>Tahsen Ali / Front-end developer</h3>
+               </div>
+               
+               <div class="contact">
+                    <div class="myImg">
+                         <img src="/images/meAtCoffee.jpg" alt="My Image" class="my-image">
+                    </div>
+                   <div class="pContact">
+                         <i class="fa-solid fa-arrow-turn-up" id="signIcon" ></i>
+                         <p>contact me</p>
+                   </div>
+                    
+               </div>
+          </header>
+
+          <section class="aboutMe">
+
+               <div class="who-am-i">
+                    <h2>Who is Tahsen?</h2>
+                    <div class="des">
+                         <p>
+                              I am a front-end developer with about a year of experience.
+                              <br>During this time, I have successfully completed six projects, focusing on creating responsive and user-friendly websites.
+                              <br>my skills include HTML, CSS and JavaScript.
+                              <br>I am passionate about delivering clean and efficient CODE.
+                         </p>
+                         <hr>
+                    </div>
+
+               </div>
+
+               <div class="manImg">
+                    <img src="/images/manReading.jpg" alt="man reding a book" class="man-image">
+               </div>
+
+          </section>
+
+          <section class="myWork">
+               <h2>My Work</h2>
+               <div class="works">
+
+                    <div class="work">
+                         <div class="workImg" id="0" onmousemove="mouseEfect(event, this.id)"  onmouseleave="mouseOut(this.id)">
+                              <img src="/images/saveWeight.PNG" alt="shot of my work" class="work-image" style="width: 11em;">
+                         </div>
+                         <div class="imgDes">
+                              <i class="fa-solid fa-arrow-turn-up" id="signIcon" ></i>
+                              <div class="workDes">
+                                   <p>
+                                        <a href="https://tahsen112.github.io/save-weight/" target="_blank">
+                                             A site that saves exercise weights to watch your progress.
+                                        </a>
+                                   </p>
+                              </div>
+                         </div>
+
+                    </div>
+     
+                    <div class="work">
+                         <div class="workImg" id="1"  onmousemove="mouseEfect(event, this.id)" onmouseleave="mouseOut(this.id)">
+                              <img src="/images/weatherapp.PNG" alt="shot of my work" class="work-image" style="width: 14em;">
+                         </div>
+     
+                         <div class="imgDes">
+
+                              <i class="fa-solid fa-arrow-turn-up" id="signIcon" ></i>
+                              <div class="workDes">
+                                   <p>
+                                        <a href="https://tahsen112.github.io/weather-app/" target="_blank">
+                                             simple site to display the weather
+                                        </a>
+                                   </p>
+                              </div>
+
+                         </div>
+                    </div>
+     
+                    <div class="work">
+                         <div class="workImg" id="2" onmousemove="mouseEfect(event, this.id)" onmouseleave="mouseOut(this.id)">
+                              <img src="/images/sandFalling.PNG" alt="shot of my work" class="work-image" style="width: 17em;">
+                         </div>
+     
+                         <div class="imgDes">
+                              <i class="fa-solid fa-arrow-turn-up" id="signIcon" ></i>
+                              <div class="workDes">
+                                   <p>
+                                        <a href="https://tahsen112.github.io/falling-sand/" target="_blank">
+                                             Sandox Browser Game 
+                                        </a>
+                                   </p>
+                              </div>
+                         </div>
+
+                    </div>
+     
+                    <div class="work">
+                         <div class="workImg" id="3" onmousemove="mouseEfect(event, this.id)" onmouseleave="mouseOut(this.id)">
+                              <img src="/images/cruds.PNG" alt="shot of my work" class="work-image" style="width: 32em; margin-left: -11em;">
+                         </div>
+     
+                         <div class="imgDes">
+
+                              <i class="fa-solid fa-arrow-turn-up" id="signIcon" ></i>
+                              <div class="workDes">
+                                   <p>
+                                        <a href="https://tahsen112.github.io/CRUDS/cruds.html" target="_blank">
+                                             A system to manage data
+                                        </a>
+                                   </p>
+                              </div>
+
+                         </div>
+                         
+                    </div>
+     
+                    <div class="work">
+                         <div class="workImg" id="4" onmousemove="mouseEfect(event, this.id)" onmouseleave="mouseOut(this.id)">
+                              <img src="/images/ticTac.PNG" alt="shot of my work" class="work-image" style="width: 11em;">
+                         </div>
+     
+                         <div class="imgDes">
+                              <i class="fa-solid fa-arrow-turn-up" id="signIcon" ></i>
+                              <div class="workDes">
+                                   <p>
+                                        <a href="https://tahsen112.github.io/tic-tac-toe/" target="_blank">
+                                             A tic tac toe game with strong algorithm (you can' win).
+                                        </a>
+                                   </p>
+                              </div>
+                         </div>
+                    
+                    </div>
+
+                    <div class="work">
+                         <div class="workImg" id="5" onmousemove="mouseEfect(event, this.id)" onmouseleave="mouseOut(this.id)">
+                              <img src="/images/RPS.PNG" alt="shot of my work" class="work-image" style="width: 15em;">
+                         </div>
+
+                         <div class="imgDes">
+                              <i class="fa-solid fa-arrow-turn-up" id="signIcon" ></i>
+                              <div class="workDes">
+                                   <p>
+                                        <a href="https://tahsen112.github.io/RPS/index1.html" target="_blank">
+                                             Rock Peper Scisser game
+                                        </a>
+                                   </p>
+                              </div>
+                         </div>
+                    
+                    </div>
+
+               </div>
+
+          </section>
+
+          <footer>
+               <h2>Contact Me</h2>
+               <div class="contacts">
+                    <div class="email">
+                         <h3>Email</h3>
+                         <p>tahsen6654@gmail.com</p>
+                    </div>
+
+                    <div class="phone">
+                         <h3>Phone</h3>
+                         <p>+964 772 571 9726</p>
+                    </div>
+
+                    <div class="telegram">
+                         <h3>Telegram</h3>
+                         <a href="http://t.me/l8l56" target="_blank">l8l56</a>
+                    </div>
+               </div>
+          </footer>
+     </div>
+
+     <script src="main.js"></script>
+</body>
+</html>
